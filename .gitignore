@@ -1,0 +1,14 @@
+# Exclure les fichiers compilés
+__pycache__/
+*.pyc
+
+# Exclure les fichiers temporaires SQLite
+*.db-wal
+*.db-shm
+
+# Exclure tout fichier caché dans le répertoire data
+data/*.db-wal
+data/*.db-shm
+
+# Exclure les environnements virtuels
+.venv*/
